@@ -1,0 +1,57 @@
+.body {
+    
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 30px;
+  background-color: #7AD1DB;
+  width: 100%;
+}
+
+.container {
+    width: 96%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.indoor-container {
+    width: 1000px; 
+    height:400px;
+    max-width: 100%; 
+    max-height: 100%;
+}
+
+#home {
+    max-width: 400px;
+    padding: 5px;
+    right: 0;
+}
+
+#container {
+    position: relative;
+}
+
+.photo {
+    width: 150px;
+    height: 200px;
+    max-width: 60%;
+    max-height:30%;
+}
+
+#home{
+    position: absolute;
+    right: 0px;
+    width: 200px
+}
+
+#service{
+    margin-right: 200px;
+}
+
+#photo{
+    margin-left: 50px;
+}
+
