@@ -1,37 +1,52 @@
 .body {
-    
-    margin-top: 30px;
-    margin-bottom: 50px;
+    background-color: #55C7EC;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 #menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 30px;
-  background-color: #7AD1DB;
-  width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #7AD1DB;
+}
+.menu{
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-around;
+    top: 0;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.logo{
+    flex: 1 1 auto;
 }
 
 .container {
     width: 96%;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 .indoor-container {
-    width: 1000px; 
+    width: 1100px; 
     height:400px;
     max-width: 100%; 
     max-height: 100%;
 }
 
 #home {
-    max-width: 400px;
-    padding: 5px;
-    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    padding: 10px 0;
+}
+
+.home-text{
+    display: flex;
 }
 
 #container {
     position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .photo {
@@ -48,10 +63,14 @@
 }
 
 #service{
-    margin-right: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 #photo{
-    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
